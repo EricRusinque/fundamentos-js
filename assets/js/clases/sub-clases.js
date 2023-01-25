@@ -50,12 +50,12 @@ class Heroe extends Persona{
         super(  nombre, codigo, frase );
 
 
-        this.clan = 'Los Avengers'
+        this.clan = 'Los Avengers';
     }
 
     quienSoy(){
         console.log(`Soy ${ this.nombre }, ${ this.clan }`)
-        super.quienSoy();
+        super.quienSoy(); 
     }
 
 }
